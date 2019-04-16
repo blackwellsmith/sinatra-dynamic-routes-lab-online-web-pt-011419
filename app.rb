@@ -28,7 +28,9 @@ class App < Sinatra::Base
     #if operator == "add"
     when "add"
       (num1 + num2).to_s
+      when "subtract"
     #elsif operator == "subtract"
+    when "multiply"
       (num1 - num2).to_s
     #elsif operator == "multiply"
       (num1 * num2).to_s
