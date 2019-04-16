@@ -30,9 +30,10 @@ class App < Sinatra::Base
       (num1 + num2).to_s
       when "subtract"
     #elsif operator == "subtract"
-    when "multiply"
+    
       (num1 - num2).to_s
     #elsif operator == "multiply"
+    
       (num1 * num2).to_s
    # elsif operator == "divide"
     (num1 / num2).to_s
