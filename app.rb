@@ -38,6 +38,6 @@ class App < Sinatra::Base
    # elsif operator == "divide"
    when "divide"
     (num1 / num2).to_s
-    #end
+    end
   end  
 end
