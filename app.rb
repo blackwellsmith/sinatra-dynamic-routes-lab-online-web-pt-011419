@@ -24,15 +24,16 @@ class App < Sinatra::Base
     operator = params[:operation]
     num1 = params[:number1].to_i
     num2 = params[:number2].to_i
-    
-    if operator == "add"
+    case operator
+    #if operator == "add"
+    when "add"
       (num1 + num2).to_s
-    elsif operator == "subtract"
+    #elsif operator == "subtract"
       (num1 - num2).to_s
-    elsif operator == "multiply"
+    #elsif operator == "multiply"
       (num1 * num2).to_s
-    elsif operator == "divide"
+   # elsif operator == "divide"
     (num1 / num2).to_s
-    end
+    #end
   end  
 end
